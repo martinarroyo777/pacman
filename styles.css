@@ -1,0 +1,75 @@
+/* Stylesheet for Pacman */
+    
+/*
+    Let's make Pacman
+*/
+.pacman, .wall, .coin, .ground {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 0px;
+    vertical-align: top;
+    margin: -2px;
+}
+#world{
+    float:left;
+    display: inline-block;
+    outline: 1px dotted purple;
+}
+
+.pacman  {     
+    background-image: url('pacman.png');
+}
+/* Wall */
+.wall {
+    background-image: url('wall.png');          
+}
+/* Coin */
+.coin {
+    background-image: url('coin.png');          
+}
+/* Ground */
+.ground {
+    background-image: url('bg.png');
+}
+/* Welcome section*/
+.welcome{
+    vertical-align: top;
+    margin-left: 15em;
+    position: relative;
+}
+/*
+    Container for game and text
+*/
+.container{
+    display: inline-block;
+    float: left;
+    
+}
+
+/* Reset button*/
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #8b1ce6;
+    margin-top: .5em;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
